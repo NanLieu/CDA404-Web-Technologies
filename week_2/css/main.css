@@ -36,16 +36,29 @@ nav {
 
 nav ul {
     margin: 0 auto;
-    width: 15%;
+    width: 65%;
 }
 
 nav ul li {
-    display: inline;
-    margin-right: 15%;
+    display: block;
+    margin-right: 0%;
 
 }
 
 article {
     width: 30%;
     float: left
+}
+
+@media (max-width: 700px) {
+    article {
+        width: 100%;
+        padding-left: 0%;
+        padding-right: 0%;
+        margin-left: 0%;
+        margin-right: 0%;
+    }
+    nav {
+        display: none;
+    }
 }
