@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    
+</head>
+<body>
+    <h1>Student Survey</h1>
+    <p><label for="name">Name*: </label><input type="text" name="name" required></p>
+    <p><label for="email">Email*: </label><input type="text" name="email" required></p>
+    <p><label for="number">Number*: </label><input type="text" name="number" required></p>
+    
+    <p><label for="year">What year are you in*: </label>
+    <select name="year" id="years">
+        <option value=""> Select </option>
+        <option value="1"> 1 </option>
+        <option value="2"> 2 </option>
+        <option value="4"> 4 </option>
+    </select></p>
+
+    <label for="device">Which electronic devices do you use? </label>
+        <p><input type="checkbox" name="rating" value="computer"> Computer </p>
+        <p><input type="checkbox" name="rating" value="ebook_reader"> Ebook reader </p>
+        <p><input type="checkbox" name="rating" value="smartphone"> Smart Phone </p>
+    
+    <label for="rating">How many hours a day do you spend using electronic devices?</label>
+        <p><input type="radio" name="rating" value="1"> 1 Hours</p>
+        <p><input type="radio" name="rating" value="2"> 2 Hours </p>
+        <p><input type="radio" name="rating" value="3"> 3 Hours </p>
+        <p><input type="radio" name="rating" value="3+"> 3 Hours + </p>
+    
+    <label for="suggestion"> Any other comments </label>
+    <p><textarea name="suggestions" cols="30" rows="5"></textarea></p>
+    <p><input type="submit" name="submit" value="Submit"></p>
+
+
+</body>
+</html>
