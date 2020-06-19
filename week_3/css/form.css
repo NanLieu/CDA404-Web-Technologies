@@ -1,0 +1,33 @@
+#payment {
+    width: 500px;
+}
+
+#payment legend {text-align: center;}
+
+#payment input[type="text"] 
+{
+    float: right;
+}
+
+#payment input[type="text"]
+{
+        border: 1px solid green;
+}
+
+#payment input[type="submit"] {
+    border-radius: 4px;
+    border: solid 1px black;
+    font-size: 20px;
+}
+
+input:invalid {
+    border: solid red;
+}
+
+input:valid {
+    border:solid green;
+}
+
+input:focus:valid {
+    border:solid green;
+}

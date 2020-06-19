@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="css/form.css">
+    
+</head>
+<body>
+    
+</body>
+</html>
+
+<form action="http://www.google.com" method="post">
+    <p><label for="name">Name:</label><input type="text" name="name"></p>
+    <p><label for="email">Email:</label><input type="text" name="email"></p>
+    <p><input type="submit" name="Submit" value="Submit"></p>
+</form>
+
+<label for="rating"> Please enter rating    </label>
+    <p><input type="radio" name="rating" value="excellent"> Excellent</p>
+    <p><input type="radio" name="rating" value="good"> Good </p>
+    <p><input type="radio" name="rating" value="bad"> Bad </p>
+
+<label for="rating"> What device do you use  </label>
+    <p><input type="checkbox" name="rating" value="ipad"> Ipad </p>
+    <p><input type="checkbox" name="rating" value="tv"> TV </p>
+    <p><input type="checkbox" name="rating" value="video"> Video </p>
+
+<select id="cars" name="car">
+    <option value=""> Select Car </option>
+    <option value="volvo"> Volvo </option>
+    <option value="saab"> Saab </option>
+    <option value="mercedes"> Mercedes </option>
+    <option value="audi"> Audi </option>
+</select>
+
+<label for="suggestion"> Enter a suggestion </label>
+<textarea name="suggestions" cols="25" rows="5"> my suggestions are: </textarea>
+
+<p><input type="text" name="Name" required></p>
+
+<fieldset>
+    <legend> Name </legend>
+    <label> First Name </label> <input type="text" name="firstName">
+    <label> Last Name </label> <input type="text" name="lastName">
+</fieldset>
+
+<fieldset>
+    <legend> Name </legend>
+    <p><label> First Name </label> <input type="text" name="firstName"></p>
+    <p><label> Last Name </label> <input type="text" name="lastName"></p>
+</fieldset>
+
+<form id="payment">
+    <!-- personal details -->
+    <fieldset>
+        <legend>First Name</legend>
+        <p><label for="firstName"> First Name</label> <input type="text" name="firstName"></p>
+        <p><label for="credit_card_information"> Credit Card Information</label> <input type="text" name="credit_card_information"></p>
+    </fieldset>
+    <input type="submit">
+</form>
+
+<fieldset>
+    <legend> Transport </legend>
+    <p><input type="text" name="Name" required></p>
+    <p><input type="checkbox" name="vehicle" value="Bike">I have a bike <p>
+    <p><input type="checkbox" name="vehicle" value="Car">I have a car </p>
+    </fieldset>
+</form>
