@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Task 3</title>
+
+     <script>
+
+        function sumNumbers() {
+            var num1 = parseInt(document.getElementById('num1').value);
+            var num2 = parseInt(document.getElementById('num2').value);
+            var num3 = parseInt(document.getElementById('num3').value);
+            
+            document.getElementById("result").innerHTML = num1 + num2 + num3
+
+            console.log(num1 + num2 + num3);
+        }
+   </script>
+
+</head>
+<body>
+    <h1>Summing Tool</h1>
+    <p>Enter three numbers</p>
+    <p><input value="7" id="num1" type="text"></p>
+    <p><input value="10" id="num2" type="text"></p>
+    <p><input value="6" id="num3" type="text"></p>
+    <button onclick="sumNumbers()" id="sum">Click to sum</button>
+    <p id="result">Result: <span></span></p>
+</body>
+</html>
