@@ -1,0 +1,29 @@
+#form {
+    width: 500px;
+}
+
+#form input[type="text"]
+{
+    float: right;
+}
+
+#travel {
+    width: 500px;
+}
+
+#travel[type="text"]
+{
+    float: right;
+}
+
+#declaration {
+    width: 500px;
+}
+
+input:invalid {
+    border: solid red;
+}
+
+input:valid {
+    border:solid green;
+}
