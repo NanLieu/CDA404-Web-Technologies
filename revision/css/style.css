@@ -1,0 +1,51 @@
+span {
+    width: 500px;
+    background: red;
+}
+
+/* div {
+    width: 300px;
+    background: yellow;
+    height: 200px;
+    border: 1px solid black; */
+    /* float: left; */
+    /* position: relative; */
+    /* left: 100px; */
+    /* top: 100px; */
+    /* position: absolute; */
+/*     left: 0;
+    top: 0;
+    right: 0;
+    bottom: 0; */
+/*     left: 0;
+    top: 200px;
+} */
+
+#meh {
+    /* width: 300px; */
+    background: yellow;
+    /* height: 200px; */
+    border: 1px solid black;
+    position: relative;
+    display: flex;
+    height: 50vh; /* 50% vertical height */
+    justify-content: space-evenly; /* horizontal alignment */
+    align-items: center; /* vertical alignment */
+    flex-direction: column; /* another vertical alignment */
+}
+
+
+#lalala {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+}
+
+.bleh {
+    width: 100px;
+    height: 100px;
+    background: hotpink;
+    border: 1px solid black;
+}
+

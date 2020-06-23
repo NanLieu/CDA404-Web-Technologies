@@ -1,0 +1,32 @@
+#wrapper{
+    width: 710px;
+    height: 350px;
+}
+
+#banner{
+    width: 700px;
+    height: 200px;
+    border: 1px solid black;
+}
+
+#posleft{
+    width: 349px;
+    height: 450px;
+    border: 1px solid black;
+    float: left;
+}
+
+#posright{
+    width: 349px;
+    height: 450px;
+    border: 1px solid black;
+    float: left;
+}
+
+#bottombar{
+    width: 700px;
+    height: 200px;
+    border: 1px solid black;
+    clear: left;
+}
+
