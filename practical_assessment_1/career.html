@@ -18,12 +18,55 @@
             <ul>
                 <li><a href="index.html">Home</a> </li>
                 <li><a href="products-capabilities.html">UK Products and Capabilities</a> </li>
-                <li><a href="career.html">Careers with Lockheed Martin</a> </li>
-                <li><a href="contact-us.html">Contact us</a> </li>
+                <li><a href="career.html">Careers</a> </li>
+                <li><a href="contact-us.html">Contact Us</a> </li>
             </ul>
         </div>
     </div>
+
+    <div id="career-intro">
+        <h1>Lockheed Martin UK Careers</h1><br>
+        <p>A career with Lockheed Martin means not only a competitive salary and benefits package, but also includes inspiring career development opportunities, a real commitment to work/life balance and a working environment that truly supports your ability to excel. In addition to our corporate office in Central London, our four different business areas operate across 16 key sites across the UK from Cornwall in the south west of England to Glasgow in the west of Scotland.</p><br>
+        <p>We recognise that our success as a business depends entirely on the talent, skills and expertise of our people and their ability to function as a tightly integrated team. We are at the forefront of innovation and engineering performance is at the centre of everything we do.</p><br>
+    </div>
     
+    <div id="benefit-list">
+        <h1>Competitive salary and generous benefit package</h1><br>
+        <p>To have a healthy work/life balance, we offer the following benefit package designed to suit your lifestyle needs:</p><br>
+        <ul>
+            <li>Annual Leave - We offer 25 days holiday plus bank holidays</li>
+            <li>Flexible Working - 9/75 Working Pattern</li>
+            <li>Recognition Schemes</li>
+            <li>Generous Pension Scheme</li>
+            <li>Salary Sacrifice Scheme</li>
+            <li>Private Medical Cover</li>
+            <li>Employee Life Assurance</li>
+            <li>Employee Discount scheme - Including an attractive range of retail, holiday and leisure discounts</li>
+            <li>Wellbeing Support - Includes Occupational Health Service, Employee Assistance programme and Flu vaccinations</li>
+            <li>Additional voluntary benefitis available to support you and your family</li>
+        </ul><br>
+    </div>
+
+    <div id="additional-questions">
+        <h1>Additional Questions</h1><br>
+        <p>Still have further questions? Try using the <a href="contact-us.html">Contact Us</a> page or use the popup chat window on this page.</p><br>
+    </div>
+    
+
+    <button class="open-button" onclick="openChat()">Live Chat</button>
+
+    <div class="chat-popup" id="chat">
+      <form class="chat-box">
+        <h1>Live Chat</h1>
+    
+        <label for="message"><b>Message</b></label>
+        <textarea placeholder="Send a chat..." name="chatmessage" required></textarea>
+    
+        <button type="submit" class="button">Send</button>
+        <button type="button" class="button" onclick="closeChat()">Close</button>
+      </form>
+    </div>
+
     <div id="BotNav">
         <ul>
             <li><a href="index.html">Home</a> </li>
@@ -33,5 +76,15 @@
         </ul>
     </div>
     
+    <script>
+        function openChat() {
+          document.getElementById("chat").style.display = "block";
+        }
+        
+        function closeChat() {
+          document.getElementById("chat").style.display = "none";
+        }
+    </script>
+
 </body>
 </html>
