@@ -176,12 +176,14 @@
     width: 95%;
 }
 
-#benefit-list h1 {
+#benefit-list h2 {
     color: #142952;
     font-family: Arial, Helvetica, sans-serif;
-    font-size: 2.5em;
+    font-size: 2em;
 
 }
+
+
 
 #benefit-list ul li {
     margin: 0 0 10px 0;
@@ -191,10 +193,10 @@
     margin: 1%;
 }
 
-#additional-questions h1 {
+#additional-questions h2 {
     color: #142952;
     font-family: Arial, Helvetica, sans-serif;
-    font-size: 2.5em;
+    font-size: 2em;
     
 }
 
@@ -206,9 +208,10 @@
     border: none;
     cursor: pointer;
     position: fixed;
-    bottom: 280px;
+    bottom: 310px;
     right: 12px;
     width: 150px;
+    border-radius: 10px;
     
   }
   
@@ -216,6 +219,10 @@
     max-width: 300px;
     padding: 10px;
     background-color: white;
+  }
+
+  .chat-box h1 {
+      color: #142952;
   }
   
   .chat-box textarea {
@@ -246,7 +253,7 @@
   .chat-popup {
     display: none;
     position: fixed;
-    bottom: 255px;
+    bottom: 285px;
     right: 0px;
     border: 3px solid #142952;
     z-index: 9;
