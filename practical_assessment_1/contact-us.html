@@ -4,7 +4,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="css/main.css">
-    <title>Lockheed Martin UK</title>
+    <title>Lockheed Martin UK - Contact Us</title>
 </head>
 <body>
 
@@ -24,18 +24,24 @@
         </div>
     </div>
 
+    <div id="contact-info">
+        <h1> Contact Us</h1>
+        <p>If you have any questions or enquiries, please leave us a message using the form provided and we'll get back to you soon!</p>
+    </div>
+
     <div id="form">
-        <form id="contact">
-            <h1> Contact Us</h1>
-            <p></p>
-            <p><label> First Name</label> <input type="text" name="first_name"></p>
-            <p><label> Last Name</label> <input type="text" name="last_name"></p>
-            <p><label> Email address </label> <input type="text" name="email_address"></p>
-            <label for="message">Message </label>
-            <textarea name="message" id="" cols="26" rows="10"></textarea>
-            <p><input type="submit" name="submit" value="Submit"></p>
+        <form id="contact" name="contact-us-form">
+            <label for="name">Name</label><br> 
+            <input type="text" id="name" name="name" required><br>
+            <label> Email address </label><br>
+            <input type="email" id="email" name="email_address" required><br>
+            <label for="message">Message </label><br>
+            <textarea name="message" id="message" required></textarea><br>
+            <input type="submit" name="submit" value="Submit">
         </form>
     </div>
+
+
 
     <div id="BotNav">
         <ul>
