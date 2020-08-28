@@ -30,21 +30,27 @@ Once the website was completed, it was checked over using the [Easy Checks – A
 Confirmed that each web pages have been allocated a page title.
 
 ### Images
-Confirmed images have alternative text to convey the purpose of the images.
+Confirmed pages that contain images have alternative text to convey the purpose of the images.
 
 ### Headings
-Confirmed 
+Confirmed each page has at least a h1 heading and any subsequent headings, if any, are implemented in a meaningful hierarchy.
 
 ### Contrast Ratio
+Confirmed text contrast ratio is sufficient to allow readability for all users.
 
 ### Text Resizing
+Confirmed texts can be resized without distortion over other objects on the website
 
 ### Keyboard Access and Visual Focus
+Confirmed that all clickable objects can be selected through the use of tab to allow control via keyboard.
 
 ### Forms, Labels, and Errors
+Confirmed that all text entry fields have keyboard access, contains labels to identify them and also uses the required attribute to create a pop-up message to notify the user to fill in the field before submitting.
 
 ## GDPR
 
+
 ## Distance Selling
+As the website does not sell goods or services, the Online and distance selling act does not apply to this website.
 
 ## Evaluation
