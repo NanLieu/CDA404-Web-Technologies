@@ -15,19 +15,25 @@ For this project, I was looking to add additional communication methods to the L
 ![products-capabilities.html](documentation-images/products-capabilities-html-wireframe.png)
 
 **career.html**
+![career.html](documentation-images/career-html-wireframe.png)
 
 **contact-us.html**
-
+![contact-us.html](documentation-images/contact-us-html-wireframe.png)
 
 ## Colour Choices
+For the colour choices, I kept it simple and tried to use the same colour as the Lockheed Martin's logo to keep in line with the colour scheme. With the contrasting blue and white will allow text to be visible under the nav bar and kept a simple black and white for the text in the background for legibility.
 
 ## Accessibility
+Once the website was completed, it was checked over using the [Easy Checks – A First Review of Web Accessibility](https://www.w3.org/WAI/test-evaluate/preliminary/) to ensure that the website has high level of accessibility as possible.
 
 ### Page Titles
+Confirmed that each web pages have been allocated a page title.
 
 ### Images
+Confirmed images have alternative text to convey the purpose of the images.
 
 ### Headings
+Confirmed 
 
 ### Contrast Ratio
 
